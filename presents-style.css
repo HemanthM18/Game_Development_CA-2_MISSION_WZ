@@ -1,11 +1,12 @@
 @import url("//fonts.googleapis.com/css?family=Creepster+Caps");
-
-body {
+body{
     background-color: black;
     font-family: "Creepster Caps"; 
     font-weight: 550;
-    font-size: 6vw;
+    font-size: 70px;
     color: #F03838;
+}
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,17 +17,14 @@ body {
 
 .presents {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .logo {
-    max-width: 80%; 
-    height: auto;
+    height: 250px;
     filter: saturate(2);    
 }
-
-#p-text {
+#p-text{ 
     text-align: center;
 }
