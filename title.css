@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("//fonts.googleapis.com/css?family=Creepster+Caps");
+.bg-img{
+    background-image: url("./Img/Title.png");
+    background-repeat: no-repeat;
+    height: 781px;
+    background-size: 100% 100%;
+    filter: saturate(1.5);
+    
+}
+body{
+    margin: 0;
+}
+.p-text{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    color: #F03838;
+    font-size: 120px;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Creepster Caps";  
+    -webkit-text-stroke: 5px white;
+    letter-spacing: 2px;
+}
+button {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 310px;
+    left: 650px;
+    font-family: 'Itim';
+    font-size: 50px;
+    border: 5px solid black;
+    font-weight: bolder;
+    backdrop-filter: blur(5px)
+}

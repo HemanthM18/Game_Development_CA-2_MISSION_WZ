@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("//fonts.googleapis.com/css?family=Creepster+Caps");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url("./Img/wave2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .p-text{
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #F03838;
+      font-size: 55px;
+      text-shadow: 2px 2px 4px black;
+      font-family: "Creepster Caps";  
+      -webkit-text-stroke: 3px white;
+      letter-spacing: 2px;
+  }
+  #score-display{
+    position: absolute;
+    color: #F03838;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Creepster Caps";
+    -webkit-text-stroke: 3px white;
+    letter-spacing: 2px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #next-wave{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    font-size: 35px;
+    font-family: 'Itim';
+    border: 4px solid black;
+    font-weight: bolder;
+    backdrop-filter: blur(5px)
+}
+#exit-wave{
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  font-size: 35px;
+  font-family: 'Itim';
+  border: 4px solid black;
+  font-weight: bolder;
+  backdrop-filter: blur(5px)
+}

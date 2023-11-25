@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("//fonts.googleapis.com/css?family=Creepster+Caps");
+.bg-img{
+    background-image: url("./Img/Title.png");
+    background-repeat: no-repeat;
+    height: 781px;
+    background-size: 100% 100%;
+    filter: saturate(1.5);
+    
+}
+body{
+    margin: 0;
+}
+.container{
+    filter: blur(5px);
+}
+.p-text{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    color: #F03838;
+    font-size: 120px;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Creepster Caps";  
+    -webkit-text-stroke: 5px white;
+    letter-spacing: 2px;
+}
+.popup{
+    text-align: center;
+    font-family: "Itim";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 30px;
+}
+#nameInput{
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#nickNameInput{
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+p, input{
+    margin: 0;
+    padding: 0;
+}
+
+.per-name{
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    font-family: 'Itim';
+    font-size: 30px;
+    border: 5px solid black;
+    font-weight: bolder;
+    backdrop-filter: blur(5px)
+}

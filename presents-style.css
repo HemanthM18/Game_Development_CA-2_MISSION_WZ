@@ -1,0 +1,32 @@
+@import url("//fonts.googleapis.com/css?family=Creepster+Caps");
+
+body {
+    background-color: black;
+    font-family: "Creepster Caps"; 
+    font-weight: 550;
+    font-size: 6vw;
+    color: #F03838;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.presents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 80%; 
+    height: auto;
+    filter: saturate(2);    
+}
+
+#p-text {
+    text-align: center;
+}

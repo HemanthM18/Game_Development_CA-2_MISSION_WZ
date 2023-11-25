@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("//fonts.googleapis.com/css?family=Creepster+Caps");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+  }
+
+  body {
+    background-image: url("./Img/wave3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  button {
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+    padding: 20px 40px;
+    font-size: 1.1rem;
+    margin-top: 3em;
+    outline: none;
+    cursor: none;
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  .blood {
+    position: absolute;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
+  .zombie {
+    height: 200px;
+    top: 62%;
+  }
+
+  img::selection {
+    background: transparent;
+  }
+
+  .cursor {
+    position: absolute;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 10;
+  }
+  .p-text{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Creepster Caps"; 
+    letter-spacing: 2px;
+}
+.instruction{
+  background-color: rgba(0, 0, 0, 0.703);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+  line-height: 3;
+}
+.header{
+  text-decoration: underline;
+  color: red;
+  font-size: 40px;
+  font-family: "Creepster Caps";
+}
+.text{
+  font-family: "Itim";
+  display: flex;
+  align-items: flex-start;
+  letter-spacing: 0.5px;
+}
+
+.welcome{
+  font-size: 35px;
+  font-family: "Creepster Caps";
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+
+.sen{
+  font-size: 35px;
+  font-family: "Creepster Caps";
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+}
