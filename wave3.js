@@ -16,7 +16,7 @@ setInterval(() => {
   // Generate random left position
   zombie.style.position = "absolute";
   zombie.style.left = randLeft + "px";
-}, 400);
+}, 300);
 
 let score2 = 0;
 let timer;
