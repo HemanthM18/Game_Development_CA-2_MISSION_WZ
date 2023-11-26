@@ -1,1 +1,5 @@
 # Game_Development_CA-2_MISSION_WZ
+The game name is Mission War Z. My game is basically a single-player action game where the player wants to kill zombies in a limited time. The game has the following:
+When the player continues to start the new game, certain instructions and challenges will be given to the player to complete for the next wave. The player will be challenged to kill a certain number of zombies that are generated in random places in a limited time period. If the player fails to finish the wave, the wave restarts or the game exits as per the player's wish. If the player successfully completes the wave, the game moves on to the next wave.
+As the player completes wave by wave, the zombies movement will increase, and the player should be quick to complete the game.
+THE GAME FIGMA PROTOTYPE : https://www.figma.com/proto/EuV0Gt3jSuhan6rLO5hZx5/ZOMBIE?page-id=0%3A1&type=design&node-id=26-74&viewport=379%2C545%2C0.26&t=y6BPhs2j7hOtaBCj-1&scaling=scale-down&starting-point-node-id=26%3A74&mode=design
